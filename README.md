@@ -1,6 +1,6 @@
 # Hecarim VS Code Theme
 
-![Hecarim VSL](/public/logo.svg)
+![Hecarim VSL](/public/images/logo.svg)
 
 Elevate your coding experience with our sleek and modern theme for Visual Studio Code.
 
