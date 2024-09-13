@@ -1,0 +1,19 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#64ffda" />
+      <stop offset="100%" stop-color="#b57edc" />
+    </linearGradient>
+    <mask id="cutoffMask">
+      <rect x="0" y="0" width="100" height="100" fill="white" />
+      <rect x="0" y="40" width="100" height="20" fill="black" />
+      <rect x="0" y="0" width="15" height="100" fill="black" />
+      <rect x="85" y="0" width="15" height="100" fill="black" />
+    </mask>
+  </defs>
+  <path 
+    d="M20 80V20h20v25h20V20h20v60H60V55H40v25H20z" 
+    fill="url(#gradient)"
+    mask="url(#cutoffMask)"
+  />
+</svg>
