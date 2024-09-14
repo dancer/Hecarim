@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/logots.png',
+        url: '/images/logots.png', // Updated path
         width: 800,
         height: 600,
         alt: 'Hecarim VS Code Theme Logo',
@@ -29,12 +29,12 @@ export const metadata: Metadata = {
     title: 'Hecarim VS Code Theme',
     description: 'Elevate your coding experience with our sleek and modern theme for Visual Studio Code.',
     creator: '@dxd',
-    images: ['/logots.png'],
+    images: ['/images/logots.png'], 
   },
   icons: {
-    icon: '/logots.png',
-    shortcut: '/logots.png',
-    apple: '/logots.png',
+    icon: '/images/logots.png', 
+    shortcut: '/images/logots.png', 
+    apple: '/images/logots.png', 
   },
 }
 
