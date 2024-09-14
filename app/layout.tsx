@@ -15,16 +15,26 @@ export const metadata: Metadata = {
     siteName: 'Hecarim VS Code Theme',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: '/logots.png',
+        width: 800,
+        height: 600,
+        alt: 'Hecarim VS Code Theme Logo',
+      },
+    ],
   },
   twitter: {
-    card: 'summary',
+    card: 'summary_large_image',
     title: 'Hecarim VS Code Theme',
     description: 'Elevate your coding experience with our sleek and modern theme for Visual Studio Code.',
     creator: '@dxd',
+    images: ['/logots.png'],
   },
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
+    icon: '/logots.png',
+    shortcut: '/logots.png',
+    apple: '/logots.png',
   },
 }
 
@@ -42,4 +52,4 @@ export default function RootLayout({
       </body>
     </html>
   )
-};
+}
