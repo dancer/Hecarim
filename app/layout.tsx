@@ -2,6 +2,7 @@ import { ThemeProvider } from 'next-themes'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import { Metadata } from 'next'
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -49,6 +50,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
